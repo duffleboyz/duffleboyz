@@ -1,26 +1,21 @@
-# DUFFLEBOYZ — free GitHub Pages site
+# DUFFLEBOYZ — Candy Mansion Edition
 
-## What's included
-- Password entry screen
-- Home page, Archive page, Gallery page, and Info page
-- Responsive dark streetwear design with black/crimson styling
-- The two uploaded concept images included in `assets/`
-- Click-to-preview image modal
-- Copy-image-link buttons
-- Lock Site button
-- General age and safety information
+A responsive, multi-page GitHub Pages static website with a dark luxury cartoon-candy / terp-inspired streetwear aesthetic.
 
-## Demo password
-`DUFFLEBOYZ`
+## Files
+- `index.html` — password entry screen
+- `home.html` — Candy Mansion homepage
+- `archive.html` — fictional concept archive with image link copy buttons
+- `gallery.html` — visual gallery and image preview modal
+- `info.html` — design, terp-note and legal/safety information
+- `styles.css` and `script.js` — shared design and interactions
+- `assets/` — original DUFFLEBOYZ concept art and a mansion design reference image
 
-## Publish from an iPad (free)
-1. Download and unzip `DUFFLEBOYZ_GitHub_Pages.zip` in the Files app.
-2. Open GitHub in Safari and create a **public repository**.
-3. Upload all the files and the `assets` folder. Make sure `index.html` is in the repository root, not inside an extra nested folder.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Choose branch `main` and folder `/(root)`, then Save.
-7. Wait for GitHub Pages to publish, then open the URL GitHub provides.
+## Publish on GitHub Pages
+Upload the contents of this folder (not the ZIP itself) to the root of your repository. Keep `index.html` at the repository root and preserve the `assets` folder. In Settings → Pages, select **Deploy from a branch**, branch `main`, folder `/(root)`, then Save.
 
-## Important
-The password is a simple client-side demo, not secure authentication. Do not use it to protect sensitive information. The archive uses fictional concept names and fantasy points only; it does not provide purchasing or ordering functionality. Copy-image-link buttons work as shareable public links after the site has been published.
+## Access code
+The demo access code is `DUFFLEBOYZ`. The gate is implemented in browser-side JavaScript and is only a visual/demo barrier; it is not secure authentication because static-site files are public. Do not use it to protect sensitive information.
+
+## Notes
+All names and style points are fictional creative concepts. This site does not sell, source, ship or facilitate transactions for cannabis or other controlled products. Image-link buttons copy the public asset URL after the site is published. External fonts load from Google Fonts; system fallbacks are included.
